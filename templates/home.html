@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+
+</head>
+<body>
+    <div style="margin-top: 50px;" class="ui container">  
+    <h1 class="ui center aligned big header">TO DO LIST APP</h1>
+    <div style="margin: 50px;" class="ui raised segments">
+        <div style="text-align:center;">
+        <div class="ui segment">
+    <a class="ui blue button" href="{{url_for('login')}}">Login</a><br>
+        </div>
+        <div class="ui segment">    
+    <a class= "ui blue button" href="{{url_for('register')}}">Register</a>
+        </div>    
+    </div>
+<pre>
+This is a simple to do list web app.
+The basic concept of this app is to provide
+the user with a simple to do list where they 
+can add their own to do's with the time required
+and priority of the task.
+After every 3 hours the user will be notified about
+all the tasks that are still to be completed and
+all the tasks that are not completed.
+It will also show the user statistics as well. 
+</pre>
+    </div>
+</body>
+</html>
